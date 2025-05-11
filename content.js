@@ -14,9 +14,10 @@
   
       // ExcelのコピーはTSV形式（タブ区切り）
       const rows = pastedText.trim().split('\n').map(row => row.split('\t'));
-  
-      // FIXME 複数サブテーブルに対応したい（フォーカスされた要素から下記セレクタを実行したい）
-      const subtable = document.querySelector('.subtable-gaia');
+    
+      // 複数サブテーブルに対応（フォーカスされた要素からsubtableセレクタを取得）
+      const active = document.activeElement;
+      const subtable = active.closest('.subtable-gaia');
       if (!subtable) {
         alert('Kintoneのサブテーブルが見つかりません');
         return;
