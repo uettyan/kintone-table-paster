@@ -3,7 +3,7 @@
 
   // kintone のレコード追加・編集画面か確認
   const isKintoneForm = () =>
-    location.href.includes("/edit") || location.href.includes("/add");
+    location.href.includes("edit") || location.href.includes("cybozu.com");
 
   // 貼り付けイベントハンドラー
   const handlePaste = (event) => {
