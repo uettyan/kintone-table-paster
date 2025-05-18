@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Kintone Table Paster",
+    "name": "kintone Table Paster",
     "version": "1.0",
-    "description": "Paste Excel data into Kintone subtable.",
+    "description": "Paste Excel data into kintone subtable.",
     "permissions": ["scripting", "clipboardRead"],
     "host_permissions": [
       "https://*.cybozu.com/*"

@@ -22,7 +22,7 @@
     const active = document.activeElement;
     const subtable = active.closest(".subtable-gaia");
     if (!subtable) {
-      alert("Kintoneのサブテーブルが見つかりません");
+      alert("kintoneのサブテーブルが見つかりません");
       return;
     }
 
