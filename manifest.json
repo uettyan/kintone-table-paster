@@ -3,7 +3,7 @@
     "name": "kintone Table Paster",
     "version": "1.0",
     "description": "Paste Excel data into kintone subtable.",
-    "permissions": ["scripting", "clipboardRead"],
+    "permissions": ["clipboardRead"],
     "host_permissions": [
       "https://*.cybozu.com/*"
     ],
